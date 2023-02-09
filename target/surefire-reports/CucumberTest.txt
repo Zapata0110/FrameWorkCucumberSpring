@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: CucumberTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 35.387 sec <<< FAILURE!
+Client sing up failed(Client sing Up)  Time elapsed: 7.101 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[fals]e> but was:<[tru]e>
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at com.mesaj.app.stepdefinitions.SingUpStepDefinitions.he_should_be_told_that_the_account_was_created_not_have(SingUpStepDefinitions.java:51)
+	at ✽.he should be told that the account was created not have(file:///C:/Users/edgar.zapata/IdeaProjects/FrameworkUdemy/src/test/resources/features/singUp.feature:10)
+
