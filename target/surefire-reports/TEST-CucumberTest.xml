@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="2" failures="1" name="CucumberTest" time="31.168" errors="0" skipped="0">
+<testsuite tests="2" failures="1" name="CucumberTest" time="40.75" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="19.0.1+10-21"/>
@@ -29,7 +29,7 @@
     <property name="classworlds.conf" value="C:\Program Files\apache-maven-3.8.6\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="stdout.encoding" value="cp437"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-19\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Java\jdk-19\bin;C:\Program Files\apache-maven-3.8.6\bin;C:\Gradle\gradle-7.6\bin;C:\Users\edgar.zapata\AppData\Local\Microsoft\WindowsApps;C:\Users\edgar.zapata\AppData\Local\Programs\Git\cmd;C:\Users\edgar.zapata\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-19\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Java\jdk-19\bin;C:\Program Files\apache-maven-3.8.6\bin;C:\Gradle\gradle-7.6\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\Users\edgar.zapata\AppData\Local\Microsoft\WindowsApps;C:\Users\edgar.zapata\AppData\Local\Programs\Git\cmd;C:\Users\edgar.zapata\AppData\Local\Programs\Microsoft VS Code\bin;."/>
     <property name="maven.conf" value="C:\Program Files\apache-maven-3.8.6/conf"/>
     <property name="jdk.debug" value="release"/>
     <property name="java.class.version" value="63.0"/>
@@ -61,8 +61,8 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Client sing Up" name="Client sing up successfully" time="24.067"/>
-  <testcase classname="Client sing Up" name="Client sing up failed" time="7.101">
+  <testcase classname="Client sing Up" name="Client sing up successfully" time="31.929"/>
+  <testcase classname="Client sing Up" name="Client sing up failed" time="8.821">
     <failure message="expected:&lt;[fals]e&gt; but was:&lt;[tru]e&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[fals]e&gt; but was:&lt;[tru]e&gt;
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
@@ -73,11 +73,11 @@
 Scenario: Client sing up failed                                &amp;#27;[90m# src/test/resources/features/singUp.feature:7&amp;#27;[0m
   &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mEdgar wants to have an account&amp;#27;[0m                         &amp;#27;[90m# com.mesaj.app.stepdefinitions.SingUpStepDefinitions.edgar_wants_to_have_an_account()&amp;#27;[0m
 
-    Embedding 846ad3ad-8ac8-4f8c-8657-4457f20c43ad [image/png 39870 bytes]
+    Embedding 1351ee71-2da9-4ea2-a94a-82d16122e8ac [image/png 39876 bytes]
 
   &amp;#27;[32mWhen &amp;#27;[0m&amp;#27;[32mhe sends required information to get the account&amp;#27;[0m        &amp;#27;[90m# com.mesaj.app.stepdefinitions.SingUpStepDefinitions.he_sends_required_information_to_get_the_account()&amp;#27;[0m
 
-    Embedding c00ebae6-ae11-478d-a044-2276bdd7c731 [image/png 79060 bytes]
+    Embedding e002da27-c04b-45b7-b1ba-4bb42b9ebe85 [image/png 64219 bytes]
 
   &amp;#27;[31mThen &amp;#27;[0m&amp;#27;[31mhe should be told that the account was created not have&amp;#27;[0m &amp;#27;[90m# com.mesaj.app.stepdefinitions.SingUpStepDefinitions.he_should_be_told_that_the_account_was_created_not_have()&amp;#27;[0m
       &amp;#27;[31morg.junit.ComparisonFailure: expected:&lt;[fals]e&gt; but was:&lt;[tru]e&gt;
@@ -87,7 +87,7 @@ Scenario: Client sing up failed                                &amp;#27;[90m# sr
 	at ✽.he should be told that the account was created not have(file:///C:/Users/edgar.zapata/IdeaProjects/FrameworkUdemy/src/test/resources/features/singUp.feature:10)
 &amp;#27;[0m
 
-    Embedding 0854addc-71af-41c5-bb29-1b195fd81e3c [image/png 79075 bytes]
+    Embedding d9642fd2-1cd8-4f2a-a5b6-bf8a62c8a938 [image/png 63308 bytes]
 
 </system-out>
   </testcase>
