@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="2" failures="1" name="CucumberTest" time="40.75" errors="0" skipped="0">
+<testsuite tests="2" failures="1" name="CucumberTest" time="20.383" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="19.0.1+10-21"/>
@@ -61,8 +61,8 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Client sing Up" name="Client sing up successfully" time="31.929"/>
-  <testcase classname="Client sing Up" name="Client sing up failed" time="8.821">
+  <testcase classname="Client sing Up" name="Client sing up successfully" time="15.211"/>
+  <testcase classname="Client sing Up" name="Client sing up failed" time="5.172">
     <failure message="expected:&lt;[fals]e&gt; but was:&lt;[tru]e&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[fals]e&gt; but was:&lt;[tru]e&gt;
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
@@ -73,11 +73,11 @@
 Scenario: Client sing up failed                                &amp;#27;[90m# src/test/resources/features/singUp.feature:7&amp;#27;[0m
   &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mEdgar wants to have an account&amp;#27;[0m                         &amp;#27;[90m# com.mesaj.app.stepdefinitions.SingUpStepDefinitions.edgar_wants_to_have_an_account()&amp;#27;[0m
 
-    Embedding 1351ee71-2da9-4ea2-a94a-82d16122e8ac [image/png 39876 bytes]
+    Embedding d00a8ccd-6b66-4290-a2f9-034b785bb975 [image/png 45503 bytes]
 
   &amp;#27;[32mWhen &amp;#27;[0m&amp;#27;[32mhe sends required information to get the account&amp;#27;[0m        &amp;#27;[90m# com.mesaj.app.stepdefinitions.SingUpStepDefinitions.he_sends_required_information_to_get_the_account()&amp;#27;[0m
 
-    Embedding e002da27-c04b-45b7-b1ba-4bb42b9ebe85 [image/png 64219 bytes]
+    Embedding 6cf4a47c-59af-4d1c-86a2-a1365a8ccc6c [image/png 45956 bytes]
 
   &amp;#27;[31mThen &amp;#27;[0m&amp;#27;[31mhe should be told that the account was created not have&amp;#27;[0m &amp;#27;[90m# com.mesaj.app.stepdefinitions.SingUpStepDefinitions.he_should_be_told_that_the_account_was_created_not_have()&amp;#27;[0m
       &amp;#27;[31morg.junit.ComparisonFailure: expected:&lt;[fals]e&gt; but was:&lt;[tru]e&gt;
@@ -87,7 +87,7 @@ Scenario: Client sing up failed                                &amp;#27;[90m# sr
 	at ✽.he should be told that the account was created not have(file:///C:/Users/edgar.zapata/IdeaProjects/FrameworkUdemy/src/test/resources/features/singUp.feature:10)
 &amp;#27;[0m
 
-    Embedding d9642fd2-1cd8-4f2a-a5b6-bf8a62c8a938 [image/png 63308 bytes]
+    Embedding 3c7b7e63-cffe-4b1a-920b-423a6f714d0e [image/png 45974 bytes]
 
 </system-out>
   </testcase>
